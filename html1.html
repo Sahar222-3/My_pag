@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مطعم إيطالي</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #d9534f;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .menu {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px;
+            gap: 20px;
+        }
+        .menu-item {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+            overflow: hidden;
+        }
+        .menu-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .menu-item h3 {
+            background-color: #d9534f;
+            color: white;
+            margin: 0;
+            padding: 10px 0;
+        }
+        .menu-item p {
+            padding: 10px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>مطعم إيطالي</h1>
+    <p>أشهى الأطباق الإيطالية</p>
+</header>
+
+<section class="menu">
+    <div class="menu-item">
+        <img src="butz.jpeg" alt="بيتزا مارغريتا">
+        <h3>بيتزا مارغريتا</h3>
+        <p>بيتزا تقليدية مع صلصة الطماطم وجبن الموزاريلا والريحان الطازج. <br> السعر: 45 ريال</p>
+    </div>
+
+    <div class="menu-item">
+        <img src="basta.jpeg" alt="سباغيتي بولونيز">
+        <h3>سباغيتي بولونيز</h3>
+        <p>معكرونة سباغيتي مع صلصة اللحم الإيطالية التقليدية. <br> السعر: 50 ريال</p>
+    </div>
+
+    <div class="menu-item">
+        <img src="tramso.jpeg" alt="تيراميسو">
+        <h3>تيراميسو</h3>
+        <p>الحلوى الإيطالية الشهيرة بطبقات البسكويت والقهوة والكريمة. <br> السعر: 25 ريال</p>
+    </div>
+</section>
+
+</body>
+</html>
